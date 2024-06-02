@@ -1,0 +1,6 @@
+--backup
+mysqldump -u [user] -p[password] LibraryManagement > /path/to/backup/LibraryManagement_backup.sql
+
+--restore
+
+mysql -u [user] -p[password] LibraryManagement < /path/to/backup/LibraryManagement_backup.sql
